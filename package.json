@@ -1,0 +1,36 @@
+{
+  "name": "@lydiafinance/lydia-finance-periphery",
+  "version": "0.1.4",
+  "description": "🎚 Peripheral smart contracts for interacting with Lydia",
+  "homepage": "https://lydia.finance",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lydiafinance/lydia-finance-periphery.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "lint": "prettier ./test/**/*.ts --check",
+    "clean": "rimraf ./artifacts && rimraf ./cache",
+    "precompile": "yarn clean",
+    "compile": "npx hardhat compile",
+    "pretest": "yarn compile",
+    "test": "npx hardhat test",
+    "prepublishOnly": "yarn test && yarn compile"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@uniswap/lib": "1.1.1",
+    "@lydiafinance/lydia-finance-core": "^1.0.1",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^3.2.1",
+    "ethereumjs-tx": "^2.1.2",
+    "ethers": "^5.0.24",
+    "hardhat": "^2.0.6",
+    "rimraf": "^3.0.0",
+    "dotenv": "^8.2.0"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}
