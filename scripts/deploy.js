@@ -15,6 +15,7 @@ async function main() {
     FACTORY = "0xa7d1701752cE8693098370d47959cE2a59A605b7";
   } else if (process.env.HARDHAT_NETWORK === "mainnet") {
     WAVAX = "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7";
+    FACTORY = "0xe0C1bb6DF4851feEEdc3E14Bd509FEAF428f7655";
   } else {
     console.error("No WAVAX and FACTORY for this network!");
     process.exit(1);
