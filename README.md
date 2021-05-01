@@ -1,4 +1,4 @@
-# Lydia Router 🎚 Peripheral smart contracts for interacting with Lydia
+# Lydia Router 🎚 Peripheral smart contracts for interacting with Lydia Finance.
 
 # Local Development
 
