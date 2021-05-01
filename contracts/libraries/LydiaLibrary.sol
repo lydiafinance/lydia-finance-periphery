@@ -1,6 +1,6 @@
 pragma solidity >=0.5.0;
 
-import '@lydiaswap/lydia-swap-core/contracts/interfaces/ILydiaPair.sol';
+import '@lydiafinance/lydia-finance-core/contracts/interfaces/ILydiaPair.sol';
 
 import "./SafeMath.sol";
 

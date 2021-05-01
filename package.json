@@ -1,6 +1,6 @@
 {
   "name": "@lydiafinance/lydia-finance-periphery",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "description": "🎚 Peripheral smart contracts for interacting with Lydia",
   "homepage": "https://lydia.finance",
   "repository": {

@@ -1,6 +1,6 @@
 pragma solidity =0.6.6;
 
-import '@lydiaswap/lydia-swap-core/contracts/interfaces/ILydiaFactory.sol';
+import '@lydiafinance/lydia-finance-core/contracts/interfaces/ILydiaFactory.sol';
 import './libraries/TransferHelper.sol';
 
 import './interfaces/ILydiaRouter02.sol';
